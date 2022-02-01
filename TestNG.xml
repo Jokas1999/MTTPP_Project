@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="AllTestsSuite">
+    <test name="First Test">
+        <classes>
+            <class name="FeritTest"/>
+        </classes>
+    </test>
+    <test name="Second Test">
+        <classes>
+            <class name="NikeWebsiteTest"/>
+        </classes>
+    </test>
+    <test name="Third Test">
+        <classes>
+            <class name="RegisterTest"/>
+        </classes>
+    </test>
+    <test name="Fourth Test">
+        <classes>
+            <class name="LoginTest"/>
+        </classes>
+    </test>
+    <test name="Fifth Test">
+        <classes>
+            <class name="YoutubeTest"/>
+        </classes>
+    </test>
+</suite>
